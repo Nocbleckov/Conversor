@@ -52,6 +52,10 @@ public class InstCmd {
         return stdInput;
     }
 
+    public BufferedReader getStdInput() {
+        return stdInput;
+    }
+
     public void finalizarInst() {
         this.stdin.close();
     }
